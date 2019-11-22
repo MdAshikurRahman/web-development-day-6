@@ -1,0 +1,23 @@
+.div-one{
+    height: 200px;
+    width: 300px;
+    background-color: red;
+}
+
+@media screen and (min-width: 520px) {
+    body{
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px){
+    body{
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body{
+        background-color: yellow;
+    }
+}
